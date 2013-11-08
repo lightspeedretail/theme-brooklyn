@@ -1,6 +1,6 @@
 <config>
     <viewset>cities</viewset>
-    <name>Long Island</name>
+    <name>Brooklyn</name>
     <thumbnail>brooklyn.png</thumbnail>
     <version>2</version>
     <description>Our default template, suitable for any type of business.</description>
