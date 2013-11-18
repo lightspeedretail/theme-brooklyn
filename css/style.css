@@ -274,10 +274,11 @@ a:hover {  text-decoration: none;   }
 
 #redirect { margin-top: 80px; margin-bottom: 80px; }
 /***** Login popup box login_box.tpl.php *****/
-#LoginForm { margin-bottom: 0px; }
-.login label { text-transform: uppercase; font-size: 0.9em; font-weight: normal; display: inline;}
+#login-form { margin-bottom: 0px; }
+.login label { text-transform: uppercase; font-size: 0.9em; font-weight: normal;}
 .login input[type="text"],.login input[type="password"],.login input[type="text"]:focus { text-transform: none; padding: 2px; margin: 0px; width: 200px;}
-#LoginForm label[for=LoginForm_rememberMe] { display: inline; }
+#login-form label[for="LoginForm_rememberMe"] { display: inline; }
+
 
 .forgotpassword, .forgotpassword a { text-transform: uppercase; font-size: 0.9em; font-weight: normal; }
 
