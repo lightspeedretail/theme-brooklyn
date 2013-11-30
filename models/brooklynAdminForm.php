@@ -19,6 +19,21 @@ class brooklynAdminForm extends ThemeForm
 	protected $parent; //Used when a theme is a copy of another theme to control inheritance
 	protected $bootstrap = null;
 	protected $viewset = "cities";
+	protected $cssfiles = "base,style";
+
+	/*
+	 * IMAGE SIZES
+	 */
+	protected $DETAIL_IMAGE_HEIGHT = 256; //Image size used on product detail page
+	protected $DETAIL_IMAGE_WIDTH = 256;
+	protected $LISTING_IMAGE_HEIGHT = 190; //Image size used on grid view
+	protected $LISTING_IMAGE_WIDTH = 190;
+	protected $MINI_IMAGE_HEIGHT = 30; //Image size used in shopping cart
+	protected $MINI_IMAGE_WIDTH = 30;
+	protected $PREVIEW_IMAGE_HEIGHT = 30;
+	protected $PREVIEW_IMAGE_WIDTH = 30;
+	protected $SLIDER_IMAGE_HEIGHT = 90; //Image used on a slider appearing on a custom page
+	protected $SLIDER_IMAGE_WIDTH = 90;
 
 
 	/*
@@ -38,26 +53,8 @@ class brooklynAdminForm extends ThemeForm
 	 *
 	 */
 	public $CHILD_THEME = "light"; //Required, to be backwards compatible with CHILD_THEME key
-
-	/*
-	 * ATTENTION THEME DESIGNERS: These values below are NOT live, they are defaults. If you are experimenting
-	 * and wish to change these values to see the effect, after changing them here, go into Admin Panel, under
-	 * the Configuration panel for your theme, and click Save. This will write these values to the
-	 * xlsws_module table for your themes, which is where Web Store looks for them at runtime.
-	 */
-	public $CATEGORY_IMAGE_HEIGHT = 180;
-	public $CATEGORY_IMAGE_WIDTH = 180;
-	public $DETAIL_IMAGE_HEIGHT = 256;
-	public $DETAIL_IMAGE_WIDTH = 256;
-	public $LISTING_IMAGE_HEIGHT = 190;
-	public $LISTING_IMAGE_WIDTH = 190;
-	public $MINI_IMAGE_HEIGHT = 30;
-	public $MINI_IMAGE_WIDTH = 30;
-	public $PREVIEW_IMAGE_HEIGHT = 30;
-	public $PREVIEW_IMAGE_WIDTH = 30;
-	public $SLIDER_IMAGE_HEIGHT = 90;
-	public $SLIDER_IMAGE_WIDTH = 90;
 	public $PRODUCTS_PER_PAGE = 12;
+
 
 	public $disableGridRowDivs = true;
 	//public $testvar;
