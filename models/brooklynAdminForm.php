@@ -24,16 +24,16 @@ class brooklynAdminForm extends ThemeForm
 	/*
 	 * IMAGE SIZES
 	 */
-	protected $DETAIL_IMAGE_HEIGHT = 256; //Image size used on product detail page
-	protected $DETAIL_IMAGE_WIDTH = 256;
-	protected $LISTING_IMAGE_HEIGHT = 190; //Image size used on grid view
-	protected $LISTING_IMAGE_WIDTH = 190;
-	protected $MINI_IMAGE_HEIGHT = 30; //Image size used in shopping cart
-	protected $MINI_IMAGE_WIDTH = 30;
-	protected $PREVIEW_IMAGE_HEIGHT = 30;
+	protected $DETAIL_IMAGE_WIDTH = 256; //Image size used on product detail page
+	protected $DETAIL_IMAGE_HEIGHT = 256;
+	protected $LISTING_IMAGE_WIDTH = 180; //Image size used on grid view
+	protected $LISTING_IMAGE_HEIGHT = 190;
+	protected $MINI_IMAGE_WIDTH = 30; //Image size used in shopping cart
+	protected $MINI_IMAGE_HEIGHT = 30;
 	protected $PREVIEW_IMAGE_WIDTH = 30;
-	protected $SLIDER_IMAGE_HEIGHT = 90; //Image used on a slider appearing on a custom page
-	protected $SLIDER_IMAGE_WIDTH = 90;
+	protected $PREVIEW_IMAGE_HEIGHT = 30;
+	protected $SLIDER_IMAGE_WIDTH = 90; //Image used on a slider appearing on a custom page
+	protected $SLIDER_IMAGE_HEIGHT = 90;
 
 
 	/*
