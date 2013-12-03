@@ -1,1 +1,141 @@
 /* Custom.css, use to override any element */
+
+.product_cell_label {
+	background: #EBEBEB;
+	border-top: 1px #e4e0d8 solid;
+}
+
+.product_cell_label a {
+	color: #888888;
+}
+
+.product_cell_price {
+	color: #111111;
+	font-weight: 600;
+}
+
+#menubar {
+	height: 36px;
+}
+
+.menuunderline {
+	height: 34px
+}
+
+#searchentry {
+	margin-top: 4px;
+	height: 33px;
+}
+
+#searchentry .search_left img {
+	padding-top: 1px;
+}
+
+#shoppingcart {margin-top: 18px;}
+
+
+#shoppingcarttop .carticon {
+	background: url(images/shoppingcartlight.png) no-repeat 1px -3px;
+}
+
+#shoppingcarttop .minicart_item {
+	padding-bottom: 41px;
+}
+
+#sidebar .containers {
+	border: 1px dotted #999;
+	border-top: none;
+	text-transform: uppercase;
+	margin: 0 0 10px;
+	padding: 14px;
+	width: auto;
+	display: none;
+	clear: both;	
+}
+
+#sidebar .containers form {
+	margin-bottom: 2px;
+}
+
+#sidebar .containers input {
+	margin-top: 5px;
+}
+
+#sidebar .containers input[type="text"] {
+	width: 90%;
+}
+
+#sidebar .containers input[type=submit] {
+	width: 100%;
+}
+
+input[type=submit] {
+	background: #111111;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	border-radius: 0;
+	text-shadow: none;
+	font-weight: 100;
+	border: none;
+	display: block;
+	height: 30px;
+	margin: 15px 0 0 0;
+}
+
+.breadcrumbs {
+    padding-bottom: 16px;
+    padding-top: 7px;
+}
+
+#product_details #photos legend {
+    text-align: center;
+}
+
+#product_details .wishlist {
+	padding-bottom: 32px;
+}
+
+#product_details .addcart {
+	padding-bottom: 32px;
+}
+
+#product_details .description h2 {
+	font-size: 14pt;
+}
+
+#yw1-widget .summary {
+	text-transform: uppercase;
+}
+
+.jcarousel-skin-slider .jcarousel-container {
+	background: #FFFFFF;
+	border: none;
+	border-radius: 0;
+}
+
+.jcarousel-skin-slider .caption {
+	background: #ebebeb;
+	padding: 10px;
+}
+
+.jcarousel-skin-slider .jcarousel-item {
+	text-align: center; 
+	border: 1px solid #E4E0D8;
+	height: auto;
+}
+
+.jcarousel-skin-slider .jcarousel-prev-horizontal {
+	background: transparent url(images/arrow.png) no-repeat 0 0;
+		-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	transform: rotate(180deg);
+	top: 93px;
+}
+
+.jcarousel-skin-slider .jcarousel-next-horizontal {
+	background: transparent url(images/arrow.png) no-repeat 0 0;
+	top: 93px;
+}
+
