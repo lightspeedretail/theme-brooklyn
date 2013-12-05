@@ -20,6 +20,7 @@ class brooklynAdminForm extends ThemeForm
 	protected $bootstrap = null;
 	protected $viewset = "cities";
 	protected $cssfiles = "base,style";
+	protected $GoogleFonts = "Dosis:700,500,400|Ropa+Sans"; // use this value to load Google Fonts for your design, i.e. $GoogleFonts = "Tangerine|Inconsolata|Droid+Sans"
 
 	/*
 	 * IMAGE SIZES
