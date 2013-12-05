@@ -103,7 +103,7 @@ class brooklynAdminForm extends ThemeForm
 			'elements'=>array(
 				'CHILD_THEME'=>array(
 					'type'=>'dropdownlist',
-					'items'=>array('light'=>'Light','dark'=>'Dark'),
+					'items'=>array('light'=>'Light','dark'=>'Dark', 'blue'=>'Blue'),
 				),
 
 //				'testvar'=>array(
