@@ -62,7 +62,7 @@ table {
 ================================================== */
 body {
     background: #fff;
-    font: 14px/21px "Proxima Nova", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: 14px/21px "Ropa+Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #444;
     -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
     -webkit-text-size-adjust: 100%;
@@ -72,7 +72,6 @@ body {
 ================================================== */
 h1, h2, h3, h4, h5, h6 {
     color: #181818;
-    font-family: "Proxima Nova", "Georgia", "Times New Roman", serif;
     font-weight: normal;
 }
 
@@ -237,7 +236,7 @@ ol ol, ol ul {
 
 ul ul li, ul ol li,
 ol ol li, ol ul li {
-    margin-bottom: 5px;
+    margin-bottom: 6px;
 }
 
 li {
@@ -292,7 +291,7 @@ input[type="button"] {
     margin-bottom: 20px;
     line-height: normal;
     padding: 8px 10px;
-    font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Dosis", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .button:hover,
