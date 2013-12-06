@@ -1,5 +1,3 @@
-
-
 /* Note to web designers:
 this layout is designed with the Twitter Bootstrap layout system.
 You should not hard-code point sizes for fonts, you should use em or percentages
@@ -25,10 +23,14 @@ a:hover {   color: #bcbcb5; }
 .smalldarkbutton a, .smalllightbutton a { color: white; }
 
 /***** Login/Logout button *****/
+#login { padding-top: 6px; }
 #login, #login a, #login a:visited { background-color: #353534; color: white;  }
 
+#headerimage {margin-top: 30px;}
+
 /***** Navigation (Products dropdown) and tabs *****/
-#menubar { border-bottom: 0px; }
+#menubar { border-bottom: 0px; height: 36px; }
+.menuunderline { height: 34px; }
 .menuunderline:hover { border-bottom: 5px solid #bcbcb5;}
 
 #nav_products ul a { color: white; border-bottom: 1px dotted #cccccc;}
@@ -38,15 +40,16 @@ a:hover {   color: #bcbcb5; }
 
 
 /***** Breadcrumbs ******/
-.breadcrumbs {  color: #bbbbbb; border-bottom: 1px dotted #aaaaaa;}
+.breadcrumbs {  color: #bbbbbb; border-bottom: 1px dotted #aaaaaa; padding-bottom: 16px; padding-top: 7px;}
 .breadcrumbs a { color: #bbbbbb; }
 
 /***** Product Grid *****/
 .product_cell_graphic  { background: white;}
 .product_cell_label  { color: #ffffff; background: #262626;}
 .product_cell_label .product_cell_price_slash { color: #7f7f7f;}
-.product_cell a { color: #ffffff;}
+.product_cell a, .product_cell_price { color: #ffffff;}
 .product_cell_label a { color: #9c9c9c;}
+.product_cell_price {font-weight: 600;}
 
 /***** Pagination *****/
 #pagination a {color: #888888;  }
@@ -55,15 +58,22 @@ a:hover {   color: #bcbcb5; }
 
 
 /***** Search Box *****/
-#searchentry { border-bottom: 4px solid #6A6A65;  }
-#searchentry .search_box input { color: #aaaaaa; border: 0px; border-color: transparent; background-color: #10100f; }
-#searchentry .searchTextBox .searched { color: #151514; }
+#searchentry { border-bottom: 4px solid #6A6A65; margin-top: 4px; height: 33px;}
+#searchentry .search_box input { color: #aaaaaa; border: 0px; border-color: transparent; background-color: transparent; }
+#searchentry .searchTextBox .searched { color: #151514; padding-bottom: 41px; }
+#searchentry .search_left img { padding-top: 1px; }
 
 /***** Mini Cart (right side shopping cart) *****/
-#shoppingcarttop .carticon { background: url(images/shoppingcartdark.png) no-repeat top right; }
+#shoppingcart {margin-top: 18px;}
+#shoppingcarttop .carticon { background: url(images/shoppingcartdark.png) no-repeat 1px -3px; }
 #shoppingcarttop .minicart_item { border-top: 1px dotted #bbbbbb; }
 #shoppingcarttop .emptymessage {  color: #fff; }
 #shoppingcartbottom { border-top: 1px dotted #bbbbbb;}
+
+#cartItems .row-fluid {
+	border-bottom: 1px dotted #999999;
+	padding: 15px 0 10px;
+}
 
     /* checkout button */
 #shoppingcartcheckout { background-color: #848478; color: white; }
@@ -81,25 +91,36 @@ a:hover {   color: #bcbcb5; }
 #genericcart input[type="text"],#genericcart input[type="text"]:focus { background-color: white; border-bottom: 1px solid black; }
 
 .facebook_wall { border: 1px solid #e7e7e7; }
+
+
 /***** Sidebar Modules *****/
 #sidebar .clickbar { color: #ffffff; border: 1px dotted #999999; }
 
+#sidebar .containers form { margin-bottom: 2px; }
+
+#sidebar .containers input { margin-top: 5px; }
+
+#sidebar .containers input[type="text"] { width: 90%; }
+
+#sidebar .containers input[type=submit] { width: 100%; }
+
 /***** Product Details Page *****/
 #product_details h3 { color: #a1a1a1; }
+#product_details .description h2 { font-size: 14pt; }
 #product_details .price_reg { color: #555555;}
 
-#product_details .addcart {background-color: #848478; color: white; }
+#product_details .addcart {background-color: #848478; color: white; padding-bottom: 32px; }
 #product_details .addcart a { color: white;}
 
-#product_details .wishlist { background-color: #353534; color: white;}
+#product_details .wishlist { background-color: #353534; color: white; padding-bottom: 32px;}
 #product_details .wishlist a {  color: white; }
 
 #product_details .grid-view table.items tr.odd { background-color: white; }
 #product_details .grid-view table.items tr.even { background-color: white; }
 #product_details .targetarea { padding-top: 10px; }
 
+#product_details #photos legend { font-size: 0.7em; text-align: center;}
 
-#product_details #photos legend { font-size: 0.7em;}
 /***** Checkout page and Registration Page *****/
 #checkout legend, #contact-form legend, #orderdisplay legend  { color: #a1a1a1;  }
 #checkout .warning, #checkout .errorMessage, #contact-form .warning, #contact-form .errorMessage { color: #dd0000; }
@@ -107,8 +128,40 @@ a:hover {   color: #bcbcb5; }
 #contact-form input[type="text"], #contact-form input[type="password"], #contact-form input[type="email"], #contact-form input[type="select"],#contact-form input[type="text"]:focus,#contact-form input[type="password"]:focus, #contact-form input[type="email"]:focus, #contact-form input[type="select"]:focus { border: 7px solid #E5E5E5; }
 #checkout .red,#contact-form .red, .customer_reg_err_msg { color: #dd0000; }
 #checkout fieldset { border-bottom: 2px dotted #e7e7e7; }
-
 #checkout #PromoLabel { color: #007700; }
+
+
+input[type=submit] {
+	text-transform: uppercase;
+	border-radius: 0;
+	text-shadow: none;
+	font-weight: 100;
+	border: none;
+	display: block;
+	height: 30px;
+	margin: 15px 0 0 0;
+}
+
+input[type=button], input[type=submit], button, input#btnSubmit, input#checkoutSubmitButton, #btnSendWishList {
+	text-transform: uppercase;
+	border-radius: 0;
+	text-shadow: none;
+	font-weight: 400;
+	border: none;
+	display: block;
+	height: auto;
+	padding: 15px 30px;
+	font-size: 10pt;
+}
+
+input[type=button]:hover, input[type=submit]:hover, button:hover, #shoppingcartcontinue:hover, #btnSubmit:hover, #shoppingcarteditcart:hover, #checkoutSubmitButton:hover, #btnSendWishList:hover {
+	border: none;
+}
+
+label {
+	text-transform: uppercase;
+	font-weight: 400;
+}
 
 .forgotpassword { color: #ff0000; }
 
@@ -147,4 +200,55 @@ a:hover {   color: #bcbcb5; }
 .jcarousel-skin-slider .jcarousel-container{background:#FFFFFF;border:1px solid #706f73; }
 .jcarousel-skin-slider .jcarousel-item-placeholder{background:#fff;color:#000}
 
+.jcarousel-skin-slider .jcarousel-container {
+	background: #FFFFFF;
+	border: none;
+	border-radius: 0;
+}
 
+.jcarousel-skin-slider .caption {
+	background: #ebebeb;
+	padding: 10px;
+}
+
+.jcarousel-skin-slider .jcarousel-item {
+	text-align: center; 
+	border: 1px solid #E4E0D8;
+	height: auto;
+}
+
+.jcarousel-skin-slider .jcarousel-prev-horizontal {
+	background: transparent url(images/arrow.png) no-repeat 0 0;
+		-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	transform: rotate(180deg);
+	top: 93px;
+}f
+
+.jcarousel-skin-slider .jcarousel-next-horizontal {
+	background: transparent url(images/arrow.png) no-repeat 0 0;
+	top: 93px;
+}
+
+.ui-corner-all {
+	border-radius: 0;
+	border: 1px dotted #999999;
+}
+
+.ui-dialog .ui-widget-header {
+	border: none;
+	border-bottom: 1px dotted #999999;
+	background: none;
+	border-radius: 0;
+	text-transform: uppercase;
+	font-weight: 400;
+	margin: -5px -5px 5px -5px;
+	height: 25px;
+	padding-top: 10px;
+}
+
+#checkout fieldset {
+	border-bottom: 1px dotted #999999;
+}

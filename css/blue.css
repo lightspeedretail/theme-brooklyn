@@ -11,12 +11,7 @@ file, and leaving this file untouched.
 
 body {
  background: #2c3238;
- background-image: url(images-blue/stripes-70.png);
- background-image: url(images-blue/stripes-70.png);
- background-image: url(images-blue/stripes-70.png);
- background-image: url(images-blue/stripes-70.png);
- background-image: url(images-blue/stripes-70.png);
- font-family: "Dosis" "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+ font-family: "Dosis", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 h1,
@@ -107,7 +102,7 @@ a:hover { color: #000000 }
 
 #nav_products img.arrow { display: none }
 
-#nav_products .nav_menuheader { background: url("images-blue/arrow-down.png") no-repeat 65px 6px }
+#nav_products .nav_menuheader { background: url("images-blue/arrow-down.png") no-repeat 77px 6px }
 
 #nav_products ul a {
  color: white;
@@ -185,14 +180,17 @@ a:hover { color: #000000 }
 
 #searchentry .searchTextBox .searched { color: #000000 }
 
-#searchentry .spyglass,
-.search_advanced .spyglass { display: none }
+#searchentry .search_left .spyglass { display: none }
 
 .search_advanced {
  position: relative;
- left: 33px;
  padding: 0 8px;
- background: url("images-blue/adv_search.png") no-repeat top right;
+ margin-top: -5px;
+}
+
+.search_advanced {
+ position: relative;
+ top: -2px;
 }
 
 #shoppingcart {
@@ -418,8 +416,8 @@ label {
  font-weight: 400;
 }
 
-#checkout .#3d89d1,
-#contact-form .#3d89d1,
+#checkout,
+#contact-form,
 .customer_reg_err_msg { color: #dd0000 }
 
 #checkout fieldset { border-bottom: 1px dotted #3d89d1 }
