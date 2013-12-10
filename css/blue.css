@@ -416,8 +416,10 @@ label {
  font-weight: 400;
 }
 
-#checkout,
-#contact-form,
+#checkout .warning,
+#checkout .errorMessage,
+#contact-form .warning,
+#contact-form .errorMessage,
 .customer_reg_err_msg { color: #dd0000 }
 
 #checkout fieldset { border-bottom: 1px dotted #3d89d1 }
