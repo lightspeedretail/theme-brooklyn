@@ -184,6 +184,8 @@ a:hover {  text-decoration: none;   }
 
 .facebook_wall { margin-top: 30px; border: 1px solid #e7e7e7; padding: 20px; }
 .facebook_wall textarea { width: 400px; border: 0px hidden; }
+.facebook_wall input[type="button"] { margin: 20px 0px 0px 8px; }
+
 /***** Sidebar Modules *****/
 #sidebar { display: block; float: left; height: auto; margin: 60px 0 0px 0; overflow: hidden; }
 #sidebar .clickbar { margin: 5px 0px 0px 0px; padding-top: 11px; padding-bottom: 11px;  border: 1px dotted #999999; font-weight: 700; text-transform: uppercase; text-align: center; cursor: pointer;}
@@ -294,6 +296,7 @@ a:hover {  text-decoration: none;   }
 #orderdisplay input[type="text"],#genericcart input[type="text"]:focus { font-size: 1.1em; margin-bottom: 7px; border: 3px; border-bottom: 1px solid black; text-align: center; padding: 2px; height: 15px; }
 #orderdisplay .qtybox { width: 30px;}
 #orderdisplay fieldset { display:inline-block;  border-bottom: 2px dotted #e7e7e7; }
+
 .myaddress { margin-left: 0px !important; padding-bottom: 10px !important; height: 125px;}
 .myaddress .default { color: #9c9c9c; font-size: 0.9em; font-style: italic; font-weight: 600;}
 
