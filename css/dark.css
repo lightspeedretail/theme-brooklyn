@@ -34,7 +34,7 @@ a:hover {   color: #bcbcb5; }
 .menuunderline:hover { border-bottom: 5px solid #bcbcb5;}
 
 #nav_products ul a { color: white; border-bottom: 1px dotted #cccccc;}
-#nav_products ul li ul li a { background: #2c2c2c; border-bottom: 1px dotted #cccccc; padding-bottom: 7px; }
+#nav_products ul li ul li a { background: #2c2c2c; border-bottom: 1px dotted #cccccc; }
 #nav_products ul li ul li a:hover { background: #2c2c2c; border-bottom: 1px dotted #cccccc; }
 
 
