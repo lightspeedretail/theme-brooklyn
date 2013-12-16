@@ -298,11 +298,11 @@ a:hover { color: #000000 }
 #product_details .addcart {
  background-color: #3d89d1;
  color: white;
+ padding-bottom: 32px;
 }
 
 #product_details .addcart a {
  color: white;
- padding-bottom: 32px;
 }
 
 #product_details .wishlist {
