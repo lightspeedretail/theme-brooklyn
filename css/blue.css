@@ -394,10 +394,19 @@ button:hover,
 #btnSubmit:hover,
 #shoppingcarteditcart:hover,
 #checkoutSubmitButton:hover,
-#btnSendWishList:hover {
+#btnSendWishList:hover,
+input[type=button]:focus,
+input[type=submit]:focus,
+button:focus,
+#shoppingcartcontinue:focus,
+#btnSubmit:focus,
+#shoppingcarteditcart:focus,
+#checkoutSubmitButton:focus,
+#btnSendWishList:focus{
  background: #3d89d1;
  color: #FFFFFF;
  border: none;
+ outline: none;
 }
 
 select,

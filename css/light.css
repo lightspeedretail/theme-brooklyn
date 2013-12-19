@@ -163,10 +163,15 @@ input[type=button], input[type=submit], button, input#btnSubmit, input#checkoutS
 	font-size: 10pt;
 }
 
-input[type=button]:hover, input[type=submit]:hover, button:hover, #shoppingcartcontinue:hover, #btnSubmit:hover, #shoppingcarteditcart:hover, #checkoutSubmitButton:hover, #btnSendWishList:hover {
+input[type=button]:hover, input[type=submit]:hover, button:hover, #shoppingcartcontinue:hover, #btnSubmit:hover, #shoppingcarteditcart:hover, #checkoutSubmitButton:hover, #btnSendWishList:hover,
+input[type=button]:focus, input[type=submit]:focus, button:focus, #shoppingcartcontinue:focus, #btnSubmit:focus, #shoppingcarteditcart:focus, #checkoutSubmitButton:focus, #btnSendWishList:focus {
 	background: #111111;
 	color: #FFFFFF;
 	border: none;
+    outline: none;
+    padding: 15px 30px;
+    font-size: 10pt;
+    font-family: Dosis;
 }
 
 label {

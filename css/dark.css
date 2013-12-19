@@ -124,7 +124,7 @@ a:hover {   color: #bcbcb5; }
 /***** Checkout page and Registration Page *****/
 #checkout legend, #contact-form legend, #orderdisplay legend  { color: #a1a1a1;  }
 #checkout .warning, #checkout .errorMessage, #contact-form .warning, #contact-form .errorMessage { color: #dd0000; }
-#checkout input[type="text"], #checkout input[type="password"], #checkout input[type="email"], #checkout input[type="select"],#checkout input[type="text"]:focus,#checkout input[type="password"]:focus, #checkout input[type="email"]:focus, #checkout input[type="select"]:focus { border: 7px solid #E5E5E5;  }
+#checkout input[type="text"], #checkout input[type="password"], #checkout input[type="email"], #checkout input[type="select"], #checkout input[type="text"]:focus, #checkout input[type="password"]:focus, #checkout input[type="email"]:focus, #checkout input[type="select"]:focus { border: 7px solid #E5E5E5;  }
 #contact-form input[type="text"], #contact-form input[type="password"], #contact-form input[type="email"], #contact-form input[type="select"],#contact-form input[type="text"]:focus,#contact-form input[type="password"]:focus, #contact-form input[type="email"]:focus, #contact-form input[type="select"]:focus { border: 7px solid #E5E5E5; }
 #checkout .red,#contact-form .red, .customer_reg_err_msg { color: #dd0000; }
 #checkout fieldset { border-bottom: 2px dotted #e7e7e7; }
@@ -143,7 +143,7 @@ input[type=submit] {
 }
 
 input[type=button], input[type=submit], button, input#btnSubmit, input#checkoutSubmitButton, #btnSendWishList {
-	text-transform: uppercase;
+    text-transform: uppercase;
 	border-radius: 0;
 	text-shadow: none;
 	font-weight: 400;
@@ -154,8 +154,13 @@ input[type=button], input[type=submit], button, input#btnSubmit, input#checkoutS
 	font-size: 10pt;
 }
 
-input[type=button]:hover, input[type=submit]:hover, button:hover, #shoppingcartcontinue:hover, #btnSubmit:hover, #shoppingcarteditcart:hover, #checkoutSubmitButton:hover, #btnSendWishList:hover {
+input[type=button]:hover, input[type=submit]:hover, button:hover, #shoppingcartcontinue:hover, #btnSubmit:hover, #shoppingcarteditcart:hover, #checkoutSubmitButton:hover, #btnSendWishList:hover,
+input[type=button]:focus, input[type=submit]:focus, button:focus, #shoppingcartcontinue:focus, #btnSubmit:focus, #shoppingcarteditcart:focus, #checkoutSubmitButton:focus, #btnSendWishList:focus {
 	border: none;
+    outline: none;
+    padding: 15px 30px;
+    font-size: 10pt;
+    font-family: Dosis;
 }
 
 label {
