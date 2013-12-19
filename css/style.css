@@ -363,7 +363,7 @@ a:hover {  text-decoration: none;   }
 .jcarousel-skin-slider .jcarousel-next-horizontal:hover,.jcarousel-skin-slider .jcarousel-next-horizontal:focus,.jcarousel-skin-slider .jcarousel-prev-horizontal:hover,.jcarousel-skin-slider .jcarousel-prev-horizontal:focus{background-position:-32px 0}
 .jcarousel-skin-slider .jcarousel-next-horizontal:active,.jcarousel-skin-slider .jcarousel-prev-horizontal:active{background-position:-64px 0}
 .jcarousel-skin-slider .jcarousel-next-disabled-horizontal,.jcarousel-skin-slider .jcarousel-next-disabled-horizontal:hover,.jcarousel-skin-slider .jcarousel-next-disabled-horizontal:focus,.jcarousel-skin-slider .jcarousel-next-disabled-horizontal:active,.jcarousel-skin-slider .jcarousel-prev-disabled-horizontal,.jcarousel-skin-slider .jcarousel-prev-disabled-horizontal:hover,.jcarousel-skin-slider .jcarousel-prev-disabled-horizontal:focus,.jcarousel-skin-slider .jcarousel-prev-disabled-horizontal:active{cursor:default;background-position:-96px 0}
-.jcarousel-skin-slider .caption { font-size: 9pt;  text-transform: uppercase; max-width: 150px;}
+.jcarousel-skin-slider .caption { font-size: 9pt;  text-transform: uppercase; max-width: 150px; min-height: 74px; }
 
 /****** tweaks ******/
 .midrow { margin-bottom: 12px;}
