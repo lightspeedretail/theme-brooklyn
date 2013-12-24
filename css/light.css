@@ -83,7 +83,7 @@ a:hover {   color: #000000; }
 #genericcart .cartdecor { color: #aaaaaa; }
 
 /* when editing cart */
-#genericcart input[type="text"],#genericcart input[type="text"]:focus { background-color: white; border-bottom: 1px solid black; }
+#genericcart input[type="text"],#genericcart input[type="text"]:focus { background-color: white; border-bottom: 1px solid black; padding-bottom: 5px;}
 
 #cartItems .row-fluid { border-bottom: 1px dotted #999999; padding: 15px 0 10px; }
 
@@ -165,13 +165,13 @@ input[type=button], input[type=submit], button, input#btnSubmit, input#checkoutS
 
 input[type=button]:hover, input[type=submit]:hover, button:hover, #shoppingcartcontinue:hover, #btnSubmit:hover, #shoppingcarteditcart:hover, #checkoutSubmitButton:hover, #btnSendWishList:hover,
 input[type=button]:focus, input[type=submit]:focus, button:focus, #shoppingcartcontinue:focus, #btnSubmit:focus, #shoppingcarteditcart:focus, #checkoutSubmitButton:focus, #btnSendWishList:focus {
-	background: #111111;
+	background: #e4e0d8;
 	color: #FFFFFF;
 	border: none;
     outline: none;
-    padding: 15px 30px;
-    font-size: 10pt;
-    font-family: Dosis;
+    /*padding: 15px 30px;*/
+    /*font-size: 10pt;*/
+    /*font-family: Dosis;*/
 }
 
 label {
