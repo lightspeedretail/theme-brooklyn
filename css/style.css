@@ -373,8 +373,9 @@ a:hover {  text-decoration: none;   }
 /***** Global adjustments as we resize down ******/
 @media only screen and (max-width: 960px) { /*iPad and below */
     body { font-size: 0.9em; }
+    label { font-size: 0.7em; }
     h1, h2, h3 { font-size: 1.3em; }
-    select, input[type="text"], input[type="password"], input[type="email"] { max-width: 190px; }
+    select, input[type="text"], input[type="password"], input[type="email"], input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus  { max-width: 150px; }
     #product_details img { max-width: 90%;}s
     #product_details #SelectSize { float: left; margin-right: 2px;}
     #checkout #CustomerContactBillingAddressState { width: 75px;}
