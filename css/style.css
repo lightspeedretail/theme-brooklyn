@@ -23,7 +23,8 @@ b { font-weight: 700; }
 i { font-style: italic; }
 u { text-decoration: underline;}
 input, input:focus { font-family: inherit; font-size: 1.1em; line-height: 1.2em; border: 10px solid; padding: 0px;border-radius: 0px;}
-select, input[type="text"], input[type="password"], input[type="email"],input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus { font-family: inherit; font-size: 1.1em; line-height: 1.2em; border: 10px solid; width: 200px; box-shadow:none; padding: 0px; border-radius: 0px;}
+input[type="text"], input[type="password"], input[type="email"],input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus { font-family: inherit; font-size: 1.1em; line-height: 1.2em; border: 10px solid; width: 200px; box-shadow:none; padding: 0px; border-radius: 0px;}
+select { font-family: inherit; font-size: 1.1em; line-height: 1.2em; border: 10px solid; width: 217px; box-shadow:none; padding: 0px; border-radius: 0px;}
 input { -webkit-appearance: none;  }
 input[type="checkbox"] { width: 20px; height: 20px; border: 0px; -webkit-appearance: checkbox; }
 input[type="radio"] { width: 18px; height: 18px; border: 0px; float:left; clear:left; -webkit-appearance: radio; margin-top: 3px; margin-right: 3px;}
@@ -251,7 +252,7 @@ a:hover {  text-decoration: none;   }
 #checkout label[for=CheckoutForm_receiveNewsletter], #checkout label[for=CheckoutForm_billingSameAsShipping],
 #checkout label[for=CheckoutForm_acceptTerms],#checkout label[for=CustomerAddress_active] ,
 #checkout label[for=CustomerAddress_residential], #checkout label[for=Customer_newsletter_subscribe] { display: inline;}
-.rememberMe label { display: inline;}
+.rememberMe label { display: inline; vertical-align: bottom; }
 #checkout #CheckoutForm_billingState, #checkout #CustomerAddress_state { width: 100px;}
 #checkout #CheckoutForm_billingPostal, #checkout #CustomerAddress_postal { width: 135px; }
 #checkout #CheckoutForm_shippingState { width: 100px;}
@@ -375,7 +376,8 @@ a:hover {  text-decoration: none;   }
     body { font-size: 0.9em; }
     label { font-size: 0.7em; }
     h1, h2, h3 { font-size: 1.3em; }
-    select, input[type="text"], input[type="password"], input[type="email"], input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus  { max-width: 150px; }
+    input[type="text"], input[type="password"], input[type="email"], input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus  { max-width: 150px; }
+    select { max-width: 167px; }
     #product_details img { max-width: 90%;}s
     #product_details #SelectSize { float: left; margin-right: 2px;}
     #checkout #CustomerContactBillingAddressState { width: 75px;}
@@ -397,7 +399,8 @@ a:hover {  text-decoration: none;   }
 
 }
 @media only screen and (max-width: 767px) {/* iPhone */
-    select, input[type="text"], input[type="password"], input[type="email"] { max-width: 200px; }
+    input[type="text"], input[type="password"], input[type="email"] { max-width: 200px; }
+    select { max-width: 217px; }
     #searchentry .search_box input { width: 75px; }
     #headerimage img { max-width: 360px; }
     .menuheight { max-width: 330px; }
