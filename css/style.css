@@ -23,8 +23,7 @@ b { font-weight: 700; }
 i { font-style: italic; }
 u { text-decoration: underline;}
 input, input:focus { font-family: inherit; font-size: 1.1em; line-height: 1.2em; border: 10px solid; padding: 0px;border-radius: 0px;}
-input[type="text"], input[type="password"], input[type="email"],input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus { font-family: inherit; font-size: 1.1em; line-height: 1.2em; border: 10px solid; width: 200px; box-shadow:none; padding: 0px; border-radius: 0px;}
-select { font-family: inherit; font-size: 1.1em; line-height: 1.2em; border: 10px solid; width: 217px; box-shadow:none; padding: 0px; border-radius: 0px;}
+select, input[type="text"], input[type="password"], input[type="email"],input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus { font-family: inherit; font-size: 1.1em; line-height: 1.2em; border: 10px solid; width: 200px; box-shadow:none; padding: 0px; border-radius: 0px;}
 input { -webkit-appearance: none;  }
 input[type="checkbox"] { width: 20px; height: 20px; border: 0px; -webkit-appearance: checkbox; }
 input[type="radio"] { width: 18px; height: 18px; border: 0px; float:left; clear:left; -webkit-appearance: radio; margin-top: 3px; margin-right: 3px;}
@@ -335,7 +334,7 @@ a:hover {  text-decoration: none;   }
 #ShareForm_toName { width: 290px;}
 #ShareForm_toEmail { width: 290px;}
 #ShareForm_comment { width: 300px; height: 80px; font-size: 0.8em; }
-
+#wishlistdisplay select { font-family: inherit; font-size: 1.1em; line-height: 1.2em; width: 217px; box-shadow:none; padding: 0px; border-radius: 0px;}
 
 /***** Footy *****/
 #footer { clear: both;}
@@ -376,8 +375,7 @@ a:hover {  text-decoration: none;   }
     body { font-size: 0.9em; }
     label { font-size: 0.7em; }
     h1, h2, h3 { font-size: 1.3em; }
-    input[type="text"], input[type="password"], input[type="email"], input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus  { max-width: 150px; }
-    select { max-width: 167px; }
+    select, input[type="text"], input[type="password"], input[type="email"], input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus  { max-width: 150px; }
     #product_details img { max-width: 90%;}s
     #product_details #SelectSize { float: left; margin-right: 2px;}
     #checkout #CustomerContactBillingAddressState { width: 75px;}
@@ -396,11 +394,11 @@ a:hover {  text-decoration: none;   }
     #footer .addresshours .indentl { margin-left: 20px; margin-right: -20px;}
     #footer .addresshours .indentr { margin-right: 20px; margin-left: -20px;}
     #contact-form textarea { width: 300px;}
+    #wishlistdisplay select { max-width: 167px; }
 
 }
 @media only screen and (max-width: 767px) {/* iPhone */
-    input[type="text"], input[type="password"], input[type="email"] { max-width: 200px; }
-    select { max-width: 217px; }
+    select, input[type="text"], input[type="password"], input[type="email"] { max-width: 200px; }
     #searchentry .search_box input { width: 75px; }
     #headerimage img { max-width: 360px; }
     .menuheight { max-width: 330px; }
@@ -409,6 +407,7 @@ a:hover {  text-decoration: none;   }
     .products_slider_theme .leftpadding { padding-left: 0px; }
     .products_slider, .products_slider_theme { display: none; }
     #footer .addresshours { height: 160px; }
+    #wishlistdisplay select { max-width: 217px; }
 }
 
 
