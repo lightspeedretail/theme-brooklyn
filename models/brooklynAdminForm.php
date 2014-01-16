@@ -31,8 +31,8 @@ class brooklynAdminForm extends ThemeForm
 	protected $LISTING_IMAGE_HEIGHT = 190;
 	protected $MINI_IMAGE_WIDTH = 30; //Image size used in shopping cart
 	protected $MINI_IMAGE_HEIGHT = 30;
-	protected $PREVIEW_IMAGE_WIDTH = 30;
-	protected $PREVIEW_IMAGE_HEIGHT = 30;
+	protected $PREVIEW_IMAGE_WIDTH = 45;
+	protected $PREVIEW_IMAGE_HEIGHT = 45;
 	protected $SLIDER_IMAGE_WIDTH = 90; //Image used on a slider appearing on a custom page
 	protected $SLIDER_IMAGE_HEIGHT = 90;
 
